@@ -7,9 +7,9 @@ require('codemirror/addon/edit/matchbrackets.js');
 var jsonlint = require('jsonlint');
 var URI = require('urijs');
 require('urijs/src/URI.fragmentQuery.js');
+var times = require('lodash.times');
 var tracery = require('tracery-grammar');
 var $ = require('jquery');
-var _ = require('lodash');
 
 var exampleGrammar = require('./example-grammar.json');
 
@@ -73,7 +73,7 @@ $(function () {
 
       $('#right').html('');
 
-      _.times(50, function () {
+      times(50, function () {
         var trace = grammar.flatten('#origin#');
 
         $('#right').append(`<p>${trace}</p>`);
