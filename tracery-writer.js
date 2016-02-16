@@ -76,7 +76,7 @@ $(function () {
       times(50, function () {
         var trace = grammar.flatten('#origin#');
 
-        $('#right').append(`<p>${trace}</p>`);
+        $('#right').append('<p>' + trace + '</p>');
       });
     } catch (e) {
       console.log('Parse error:', e);
