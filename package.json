@@ -1,0 +1,23 @@
+{
+  "name": "tracery-writer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tracery-writer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo tracery-writer.js -- -t brfs -i file"
+  },
+  "author": "Beau Gunderson",
+  "license": "MIT",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "budo": "^8.0.4",
+    "codemirror": "^5.11.0",
+    "jquery": "^2.2.0",
+    "jsonlint": "^1.6.2",
+    "lodash": "^4.3.0",
+    "system": "^1.0.4",
+    "tracery-grammar": "^2.7.2",
+    "urijs": "^1.17.0"
+  }
+}

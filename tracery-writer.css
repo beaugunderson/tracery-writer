@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#left {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  width: 50vw;
+}
+
+#right {
+  position: fixed;
+  left: 50vw;
+  height: 100vh;
+  width: 50vw;
+  box-sizing: border-box;
+  padding: 1em;
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+}
+
+#right p {
+  margin-bottom: 1em;
+}
+
+#editor {
+  height: 100%;
+  width: 100%;
+}
+
+.CodeMirror {
+  height: 100%;
+  width: 100%;
+}
