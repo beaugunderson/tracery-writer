@@ -76,6 +76,8 @@ $(function () {
       times(50, function () {
         var trace = grammar.flatten('#origin#');
 
+        trace = trace.replace(/\n/g, '<br>');
+
         $('#right').append('<p>' + trace + '</p>');
       });
     } catch (e) {
