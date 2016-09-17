@@ -38,3 +38,18 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+#about {
+  z-index: 100;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 0.9rem;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  line-height: 1.3rem;
+}
