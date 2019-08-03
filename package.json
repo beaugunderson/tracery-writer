@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "brfs": "^1.4.3",
-    "budo": "^8.0.4",
+    "budo": "^11.6.3",
     "codemirror": "^5.11.0",
     "jquery": "^3.4.1",
     "jsonlint": "^1.6.2",
