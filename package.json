@@ -14,7 +14,7 @@
     "brfs": "^1.4.3",
     "budo": "^8.0.4",
     "codemirror": "^5.11.0",
-    "jquery": "^2.2.0",
+    "jquery": "^3.4.1",
     "jsonlint": "^1.6.2",
     "lodash.times": "^4.0.1",
     "tracery-grammar": "^2.7.2",
