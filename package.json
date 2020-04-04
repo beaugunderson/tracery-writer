@@ -11,13 +11,13 @@
   "author": "Beau Gunderson",
   "license": "MIT",
   "dependencies": {
-    "brfs": "^1.4.3",
+    "brfs": "^2.0.2",
     "budo": "^11.6.3",
-    "codemirror": "^5.11.0",
+    "codemirror": "^5.52.2",
     "jquery": "^3.4.1",
-    "jsonlint": "^1.6.2",
-    "lodash.times": "^4.0.1",
-    "tracery-grammar": "^2.7.2",
-    "urijs": "^1.17.0"
+    "jsonlint": "^1.6.3",
+    "lodash.times": "^4.3.2",
+    "tracery-grammar": "^2.7.4",
+    "urijs": "^1.19.2"
   }
 }
